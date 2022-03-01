@@ -1,1 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T15:50:10.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" version="16.6.4" etag="gWa4xfcrPvV0fWkug9IS" type="github"><diagram id="JVMwpuu2cR9tLNL-XiG2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-01T15:53:34.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="4inPC5NiPCM27ZVGjqks" version="16.6.4" type="github">
+  <diagram id="JVMwpuu2cR9tLNL-XiG2" name="Page-1">
+    <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-1" value="Issue VC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-2" target="1yqwH4SOmqNWXLaImxOB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-2" value="Issuer Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-3" value="Issuer Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-4" value="Proof Registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-3" target="1yqwH4SOmqNWXLaImxOB-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="510" as="sourcePoint" />
+            <mxPoint x="620" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-6" value="Prerequisite: Endorser DID&lt;br&gt;Required: Schema + Cred_Def" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-5">
+          <mxGeometry x="-0.1267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-7" value="OCA Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-10" target="1yqwH4SOmqNWXLaImxOB-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="620" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-9" value="Prerequisite: Schema Overlay&#39;s" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-8">
+          <mxGeometry x="0.0297" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-10" value="Issuer Tool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-12" value="Prerequisite: Endorser DID&lt;br&gt;Required: Schema + Cred_Def" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-11">
+          <mxGeometry x="-0.0057" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-13" value="Retreive OCA Overlay&#39;s&lt;br&gt;Form" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-2" target="1yqwH4SOmqNWXLaImxOB-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="500" as="sourcePoint" />
+            <mxPoint x="620" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-16" target="1yqwH4SOmqNWXLaImxOB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="260" as="sourcePoint" />
+            <mxPoint x="650" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-15" value="Establish Connection&lt;br&gt;Part 2: PairDIDWyse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-14">
+          <mxGeometry x="0.002" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-3" target="1yqwH4SOmqNWXLaImxOB-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="420" as="sourcePoint" />
+            <mxPoint x="580" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-19" value="Issue VC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-18">
+          <mxGeometry x="0.225" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-16" target="1yqwH4SOmqNWXLaImxOB-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="230" as="sourcePoint" />
+            <mxPoint x="500" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-21" value="Establish Connection&lt;br&gt;Part 1: Scan QR (getInvite)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-20">
+          <mxGeometry x="0.002" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-23" value="Component&lt;br&gt;Retreive OCA&lt;br&gt;Display as Form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-24" value="Issuing verifiable credential with OCA - Issue agent to agent" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="750" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-16" value="Alice Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1yqwH4SOmqNWXLaImxOB-24">
+          <mxGeometry x="600" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yqwH4SOmqNWXLaImxOB-16" target="1yqwH4SOmqNWXLaImxOB-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="530" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yqwH4SOmqNWXLaImxOB-30" value="Verify DID, schema, cred_def" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1yqwH4SOmqNWXLaImxOB-29">
+          <mxGeometry x="-0.2159" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
